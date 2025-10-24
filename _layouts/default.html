@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Snaits</title>
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>{{ page.title | default: site.title | default: "Snaits" }}</h1>
+            {% if page.url != "/" %}
+            <nav>
+                <a href="{{ '/' | relative_url }}">Home</a>
+            </nav>
+            {% endif %}
+        </header>
+        
+        <main>
+            {{ content }}
+        </main>
+        
+        <footer>
+            <p>&copy; {{ 'now' | date: "%Y" }} Snaits. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
