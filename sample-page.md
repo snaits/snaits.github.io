@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Sample Page
+title: Eiendeler-guide for uniform
 ---
 
 <section class="intro">
-    <p>This is a sample page created using Jekyll and Markdown.</p>
+    <p>Guide til registrering av uniformer med QR-kode</p>
 </section>
 
 <section class="content">
