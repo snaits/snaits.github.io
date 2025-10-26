@@ -18,6 +18,6 @@ title: Welcome to Snaits
     
     <ul>
         <li><a href="https://github.com/snaits" target="_blank">GitHub Profile</a></li>
-        <li><a href="{{ '/sample-page' | relative_url }}">Sample Page</a></li>
+        <li><a href="{{ '/uniformsguide' | relative_url }}">Uniformsguide</a></li>
     </ul>
 </section>
